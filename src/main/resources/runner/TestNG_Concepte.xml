@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<listeners>
+		<listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter" />
+	</listeners>
+	<test name="Test1">
+		<groups>
+			<run>
+				<!--include name="smoke"></include-->
+				<!--exclude name="smoke"></exclude-->
+				
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGConcept.Annotations"></class>
+			<!--class name="testNGConcept.IloveTestNG"></class>
+			<class name="testNGConcept.IloveJava"></class-->
+			
+		</classes>
+	</test>
+</suite>
