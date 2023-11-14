@@ -13,8 +13,8 @@
 		</groups>
 		<classes>
 			<class name="testNGConcept.Annotations"></class>
-			<!--class name="testNGConcept.IloveTestNG"></class>
-			<class name="testNGConcept.IloveJava"></class-->
+			<class name="testNGConcept.IloveTestNG"></class>
+			<class name="testNGConcept.IloveJava"></class>
 			
 		</classes>
 	</test>
